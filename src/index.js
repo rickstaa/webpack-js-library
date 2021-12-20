@@ -1,5 +1,4 @@
-import capitalize from './capitalize';
-import unique from './unique';
-import longestDistinctSubstring from './distinctString';
+import helloWorld from './helloWorld.js';
+import capitalize from './capitalize.js';
 
-export { capitalize, unique, longestDistinctSubstring };
+export { helloWorld, capitalize };

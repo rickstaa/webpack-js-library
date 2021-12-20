@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "webpack-js-library@1.0.0",
+    "stage": "build",
+    "script": "webpack build --config webpack.prod.js",
+    "pkgname": "webpack-js-library",
+    "err": {
+      "name": "pnpm",
+      "message": "webpack-js-library@1.0.0 build: `webpack build --config webpack.prod.js`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: webpack-js-library@1.0.0 build: `webpack build --config webpack.prod.js`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/ricks/.nvm/versions/node/v16.13.1/lib/node_modules/pnpm/dist/pnpm.cjs:91776:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

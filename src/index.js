@@ -1,4 +1,5 @@
 import helloWorld from './helloWorld.js';
-import capitalize from './capitalize.js';
+import myCapitalize from './capitalize.js';
+import reactLog from './reactLog.js';
 
-export { helloWorld, capitalize };
+export { helloWorld, myCapitalize, reactLog };
